@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap");
+
+:root {
+  --primary--color--: #2e2963;
+  --primary--colorTwo--: #6c63d1;
+}
+
+body {
+  display: block;
+  max-width: 350px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  text-align: center;
+  margin: auto;
+  margin-top: 2rem;
+  background-color: var(--primary--colorTwo--);
+  color: beige;
+  border-color: beige;
+}
+
+#div {
+  background-color: var(--primary--color--);
+  padding: 1rem;
+  border-style: inherit;
+  border-radius: 1rem;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+#input-number {
+  display: block;
+  margin: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  border-style: solid;
+  max-width: 350px;
+}
+
+#check-number {
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
+  max-width: 350px;
+  border-style: solid;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 2rem;
+  border-radius: 0.5rem;
+}
+
+#output-result {
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 3rem;
+
+  max-width: 350px;
+
+  padding-bottom: 5rem;
+
+  margin-bottom: 5rem;
+  color: beige;
+  font-size: x-large;
+  font-weight: bolder;
+  text-shadow: 0px 0px 9px rgba(140, 72, 255, 0.5);
+}
